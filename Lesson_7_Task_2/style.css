@@ -1,0 +1,58 @@
+*{transition: all .1s ease-in;
+}
+body{
+    background-color: #3399cc;
+color: white;
+font-family:“Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+border: 20px solid #2b81ac;
+margin: 0;
+}
+
+
+.main{
+    width: 1200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50%;
+    
+}
+
+.box {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0;
+    
+}
+
+.box li{   
+    
+      text-align: center;
+      padding: 30px;
+    display: inline-block; 
+    box-sizing: border-box;
+    border: 5px solid white;
+font-size: 26px;
+}
+li:nth-child(1) {background: #3399cc; width: 50%;}
+li:nth-child(2) {background: #33cccc; width: 25%;}
+li:nth-child(3) {background: #996699; width: 25%;}
+li:nth-child(4) {background: #c24747; width: 25%;}
+li:nth-child(5) {background: #e2674a; width: 25%;}
+li:nth-child(6) {background: #ffcc66; width: 25%;}
+li:nth-child(7) {background: #99cc99; width: 25%;}
+li:nth-child(8) {background: #669999; width: 25%;}
+li:nth-child(9) {background: #cc6699; width: 50%;}
+li:nth-child(10) {background: #339966; width: 25%;}
+li:nth-child(11) {background: #666699; width: 100%;}
+
+h2 {    font-weight: normal;}
+
+
+.box:hover li:not(:hover){
+        background-color: #333;
+        
+        color: black;
+      }
+ 
+    

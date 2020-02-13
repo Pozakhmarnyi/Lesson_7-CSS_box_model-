@@ -1,0 +1,76 @@
+*{transition: all .1s ease-in;}
+body{
+    background-color: #ffffff;
+}
+
+.tit1 {
+    width: 150px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 142px;
+    color: #898f99;
+    font-weight: bold;
+}
+.tit2 {
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    color: #0ec8cb;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+.tit3 {
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    color: #999999;
+    letter-spacing: 1px;
+}
+.main{
+    width: 1200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    margin-top: 108px;
+    width: 25%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: #f7f7f7;
+}
+img{
+    margin-top: 56px;
+    margin-bottom: 45px;
+}
+.move {margin-bottom: 61px;}
+.move2 {margin-top: 64px;
+    margin-bottom: 48px;}
+h2 {font-weight: bold;}
+
+.txt{ text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 100%;
+    padding: 5px;
+    margin-top: 40px;
+    color: #777777;
+    
+}
+
+
+.container:hover {background-color: #0ec8cb; color:white} 
+.txt:hover { color:white} 
